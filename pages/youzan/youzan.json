@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "zan-button": "/bower_components/zanui-weapp/dist/btn/index",
+    "zan-toast": "/bower_components/zanui-weapp/dist/toast/index"
+  }
+}

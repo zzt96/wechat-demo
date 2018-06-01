@@ -1,0 +1,4 @@
+<!--pages/youzan/youzan.wxml-->
+<text>有赞UI Demo</text>
+<zan-button bind:btnclick="showToast">按钮</zan-button>
+<zan-toast id="zan-toast-test"></zan-toast>

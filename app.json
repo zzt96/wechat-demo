@@ -1,0 +1,48 @@
+  {
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/usercenter/usercenter",
+    "pages/usercenter/usermanage/usermanage",
+    "pages/home/home",
+    "pages/sign/sign",
+    "pages/youzan/youzan"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F9F9F9",
+    "navigationBarTitleText": "reading demo",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FD9827",
+    "backgroungColor": "#ffffff",
+    "borderStyle": "#e0e0e0",
+    "list": [
+      {
+        "iconPath": "assets/icon/首页.png",
+        "selectedIconPath": "assets/icon/我的订单.png",
+        "pagePath": "pages/home/home",
+        "text": "合同管理"
+      },
+      {
+        "iconPath": "assets/icon/二维码.png",
+        "selectedIconPath": "assets/icon/二维码.png",
+        "pagePath": "pages/youzan/youzan",
+        "text": "有赞Demo"
+      },
+      {
+        "iconPath": "assets/icon/设置.png",
+        "selectedIconPath": "assets/icon/设置.png",
+        "pagePath": "pages/usercenter/usercenter",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
