@@ -1,1 +1,8 @@
-{}
+{
+  "usingComponents": {
+    "zan-button": "/bower_components/zanui-weapp/dist/btn/index",
+    "zan-cell": "/bower_components/zanui-weapp/dist/cell/index",
+    "zan-icon": "/bower_components/zanui-weapp/dist/icon/index"
+  },
+  "navigationBarTitleText": "个人中心"
+}

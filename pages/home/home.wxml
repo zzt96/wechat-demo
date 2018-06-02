@@ -1,2 +1,5 @@
 <!--pages/home/home.wxml-->
-<text>合同管理页</text>
+<text>Home</text>
+<view>{{ data0 }}</view>
+<button bindtap='easymocktest'>EasyMock模拟数据请求</button>
+<button bindtap='uploadfile'>上传本地图片</button>

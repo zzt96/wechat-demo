@@ -1,2 +1,29 @@
 <!--pages/usercenter/usercenter.wxml-->
-<text>这是个人中心</text>
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  </view>
+<zan-cell-group>
+    <zan-cell title="只显示箭头" is-link></zan-cell>
+    <zan-cell title="带zan-icon" is-link>
+        <zan-icon slot="icon" type="checked"></zan-icon>
+    </zan-cell>
+    <zan-cell title="带icon" is-link>
+    <icon slot="icon" type="success" size="10"/>
+    </zan-cell>
+    <zan-cell title="跳转到启动页（非tabBar）" is-link url="/pages/index/index"></zan-cell>
+    <zan-cell title="跳转到tabBar页面" is-link url="/pages/home/home" link-type="switchTab"></zan-cell>
+    <zan-cell title="消息提示" is-link></zan-cell>
+    <zan-cell title="单行列表" label="附加描述" value="详细信息"></zan-cell>
+    <zan-cell title="表单">
+      <input slot="footer" type="digit" placeholder="带小数点的数字键盘"/>
+    </zan-cell>
+    <zan-cell title="开关">
+      <switch slot="footer" checked/>
+    </zan-cell>
+</zan-cell-group>

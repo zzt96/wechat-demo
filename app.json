@@ -24,7 +24,7 @@
         "iconPath": "assets/icon/首页.png",
         "selectedIconPath": "assets/icon/我的订单.png",
         "pagePath": "pages/home/home",
-        "text": "合同管理"
+        "text": "主业务"
       },
       {
         "iconPath": "assets/icon/二维码.png",
