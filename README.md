@@ -6,9 +6,10 @@
 ### app.json
 ## ZanUI
 ### 使用bower安装
-### 两种组件引用
+### 两种组件引用Demo
 #### 正常引用
 #### API类组件
+### cell使用（在个人中心）
 ## MOCKJS
 ### 域名校验
 #### 跳过域名校验
@@ -41,6 +42,10 @@ easymocktest() {
     })
   },
 ```
+
+## 上传数据
+- 目前只能进行图片上传
+
 
 ## 常见问题
 ### 数据绑定提示this.setData is not a function
