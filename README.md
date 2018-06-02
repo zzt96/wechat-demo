@@ -45,6 +45,7 @@ easymocktest() {
 
 ## 上传数据
 - 目前只能进行图片上传
+- uploadFile
 
 
 ## 常见问题
@@ -77,4 +78,4 @@ doCalc:function(){
 ```
 
 ### 数据绑定不成功
-解决方法：只能使用SetData()绑定数据
+解决方法：只能使用SetData()绑定数据  
